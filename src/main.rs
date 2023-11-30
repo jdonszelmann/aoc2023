@@ -26,9 +26,8 @@ mod day23;
 mod day24;
 mod day25;
 
-
-mod take_while_inclusive;
 mod parser;
+mod take_while_inclusive;
 
 fn main() {
     day01::run();

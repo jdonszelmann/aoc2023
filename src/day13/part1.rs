@@ -1,6 +1,5 @@
-
 use std::fs::read;
-                
+
 pub fn run() {
     println!("aoc 2022 day 13 part 1");
 
@@ -16,4 +15,3 @@ mod tests {
         run();
     }
 }
-        

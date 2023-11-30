@@ -1,4 +1,3 @@
-
 use std::fs::read;
 
 pub fn run() {
@@ -7,14 +6,12 @@ pub fn run() {
     let input = read("src/day22/data.in").expect("no input file found");
 }
 
-
 #[cfg(test)]
 mod tests {
     use super::run;
-    
+
     #[test]
     pub fn test_day_22_part_2() {
         run();
     }
 }
-                    

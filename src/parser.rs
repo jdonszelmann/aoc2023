@@ -1,5 +1,5 @@
-use std::str::{Chars, FromStr};
 use itertools::{Itertools, MultiPeek};
+use std::str::{Chars, FromStr};
 
 pub struct Parser<'a> {
     stream: MultiPeek<Chars<'a>>,
@@ -83,4 +83,3 @@ impl<'a> Parser<'a> {
         }
     }
 }
-
