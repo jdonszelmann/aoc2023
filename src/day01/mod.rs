@@ -25,7 +25,6 @@ enum Machine {
     FIV,
     S,
     SI,
-    SIX,
     SE,
     SEV,
     SEVE,
