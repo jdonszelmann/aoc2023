@@ -26,8 +26,10 @@ mod day23;
 mod day24;
 mod day25;
 
+mod fold_mut;
 mod parser;
 mod take_while_inclusive;
+mod update_with;
 
 fn main() {
     day01::run();
