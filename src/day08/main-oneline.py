@@ -1,0 +1,2 @@
+
+(lambda r,i,x:(lambda n,f:print(f("AAA",f,i[0],n,0),r(lambda a,i:a*(i//__import__("math").gcd(a, i)),[f(x,f,i[0],n,0)for x in n if x[2]=="A"],1)))({s:{"L":l,"R":r}for s,l,r in[x("()=,",x,l).split()for l in i[1].split("\n")]},lambda c,f,i,n,s:(lambda c:f(c,f,i,n,len(i)+s)if type(c)==str else c)(r(lambda c,m:s+m[0]+1 if type(c)==int or c[2]=="Z"else n[c][m[1]],enumerate(i),c))))(__import__("functools").reduce,open("data.in").read().split("\n\n"),lambda i,f,s:f(i[1:],f,s.replace(i[0],""))if i else s,)
